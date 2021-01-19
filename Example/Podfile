@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'UIAutoAdaptKit_Example' do
+  pod 'UIAutoAdaptKit', :path => '../'
+
+  target 'UIAutoAdaptKit_Tests' do
+    inherit! :search_paths
+    
+  end
+end

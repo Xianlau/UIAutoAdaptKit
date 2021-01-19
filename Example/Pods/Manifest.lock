@@ -1,0 +1,16 @@
+PODS:
+  - UIAutoAdaptKit (0.1.0)
+
+DEPENDENCIES:
+  - UIAutoAdaptKit (from `../`)
+
+EXTERNAL SOURCES:
+  UIAutoAdaptKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIAutoAdaptKit: 8742f4fc9ddc9dd956b3bb07d660fe9748f62673
+
+PODFILE CHECKSUM: 67bf0d701935365bcccb4d51a975e2a6c8e7bfa7
+
+COCOAPODS: 1.8.3

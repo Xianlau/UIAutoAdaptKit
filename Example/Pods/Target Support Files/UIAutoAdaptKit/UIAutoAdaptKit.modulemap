@@ -1,0 +1,6 @@
+framework module UIAutoAdaptKit {
+  umbrella header "UIAutoAdaptKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
