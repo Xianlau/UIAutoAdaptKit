@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIAutoAdaptKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'a useful tool to automatically adapt all iphone and ipad about UI layout'
 
 # This description is used to generate tags and improve search results.
