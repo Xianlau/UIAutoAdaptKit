@@ -18,9 +18,9 @@ class ViewController: UIViewController {
 
         
         /*
-         * autoWidth : 两个空间之间的宽度距离
-         * autoHeihgt : 两个空间之间的高度距离
-         * autoLength : 单个空间之间的边长 *单个空间的宽和高都必须使用这个,会自动适配, 否则会和UI设计师给的图变形.
+         * autoWidth() : 两个view之间的宽度距离
+         * autoHeihgt() : 两个view件之间的高度距离
+         * autoLength() : 单个view之间的边长 (单个view的宽和高都必须使用这个,会自动适配)
          *
          */
         testView.frame = CGRect.init(x: autoWidth(20), y: autoHeihgt(20), width: autoLength(100), height: autoLength(100))

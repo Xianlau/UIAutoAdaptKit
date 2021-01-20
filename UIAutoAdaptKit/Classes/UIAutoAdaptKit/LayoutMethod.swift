@@ -47,7 +47,7 @@ internal struct LayoutMethod {
      ///   - iPadH: 分辨率比例为768*1024的iPad
      /// - Returns: 适配后的尺寸
 
-    static  func autoLayoutHeight(iPhoneHeight: CGFloat, iPadHeight: CGFloat? = nil) -> CGFloat {
+    static func autoLayoutHeight(iPhoneHeight: CGFloat, iPadHeight: CGFloat? = nil) -> CGFloat {
 
         var autoHeight: CGFloat = 0.0
         let normalHeight:CGFloat = 375.0//以iphone6为标准  375 * 667
